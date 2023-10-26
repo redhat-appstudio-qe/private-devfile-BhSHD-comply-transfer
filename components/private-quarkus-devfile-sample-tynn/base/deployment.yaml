@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: private-quarkus-devfile-sample-tynn
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-zlgx-tenant/private-devfile/private-quarkus-devfile-sample-tynn@sha256:ca67cfaba589d74cff8d42a8ebd6e12f10a427eac26d3137c6187e5f96a463c5
         name: my-java-quarkus
         ports:
         - containerPort: 8081
